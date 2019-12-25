@@ -1,0 +1,6 @@
+Audi : &data
+  name : RS6
+  time : 2019
+BMW :
+  <<: *data
+  Name : M5

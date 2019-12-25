@@ -1,0 +1,27 @@
+#value1:  # yaml文件数组格式
+#  - 1
+#  - 2  # - 后必须跟空格
+
+#value2 :[1,2,3]  # python数组类型
+
+#value3 :  # 字典 套 列表 套字典
+#  - name: 啊啊
+#  - Name: 哈哈
+
+#value4: 122
+#value5 : 1.225
+
+#value6 : true
+#value7 : false
+
+#value8 : ~
+#value9 :
+#value10 : null
+#value11 : Null
+
+#value12 : None
+
+#value13 : 2020-11-11 12:12:12
+#value15 : 2020-11-11
+#value16 : 12:12:12
+value17 : 2020-11-11 02:02:02   # 如果是个位数一定补0

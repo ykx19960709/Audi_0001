@@ -1,0 +1,37 @@
+# ---------数组-------------
+mms: ["hello", "python", "appium"]
+mms1:
+  - 1
+  - 2
+mms2:
+  - name1: zhangsan
+  - name2: lisi
+  - name2: lisi
+
+# 为空
+mmsa1:
+mmsa2: ~
+mmsa3: null
+mmsa4: Null
+
+# 字符串
+mmsa5: ""
+mmsa6: None
+
+# 日期
+values1: 2020-11-11 12:12:12  # 返回值 datetime.datatime
+values2: 2020-11-11  # 返回值 datetime.data
+values3: 12:12:12   # 返回整数
+
+values4: 2020-11-11 2:2:2  # 如果是个位数，会是字符串，所以一定要补0
+values5: 2020-11-11 02:02:02
+values6: 2020-1-11
+
+
+# ---------对象-------------
+phone: "13012345678"
+num: 1
+name:
+  name1: zhangsan
+  name2: lisi
+
